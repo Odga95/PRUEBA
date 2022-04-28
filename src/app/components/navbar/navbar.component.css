@@ -1,0 +1,52 @@
+.navbar{
+background-color: white;
+}
+
+.log-icon{
+    height: 45px;
+    padding: 3px;
+    width: fit-content;
+}
+
+img{
+    height:100%;
+    cursor: pointer;
+}
+.rounded-circle{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.personal-information, h4{
+    font-size: 14px;
+    padding: 3px;
+    text-align: right;
+}
+.personal-information h5{
+    font-size: 13px;
+    color: #c0bdbd;
+}
+
+.profile-icon{
+    height: 45px;
+    width: 100%;
+    position: relative;
+}
+
+.up-photo{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: white 2px solid;
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 0;
+    margin-right: 3px;
+    background-color: #6a6aff;
+}
+
+i{
+    cursor: pointer;
+}
+

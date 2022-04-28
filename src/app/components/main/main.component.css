@@ -1,0 +1,21 @@
+
+h2{
+    color: rgba(0, 0, 0, 0.767);
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.fa-arrow-left{
+left: 0;
+top: 0;
+}
+
+h6{
+    color: #c0bdbd;
+}
+.point{
+    border-radius: 100%;
+    height: 0.306rem;
+    width: 0.306rem;
+    background-color: #6a6aff;
+}
