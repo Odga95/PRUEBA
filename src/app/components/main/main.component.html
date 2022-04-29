@@ -1,6 +1,6 @@
 <div class="container mt-5">
     <div class="row justify-content-center">
-        <div class="col-xl-7 position-relative text-center">
+        <div class="col-xl-7 position-relative text-center p-0">
             <h2 class="pt-3 ">Flotas La Macarena</h2>
             <i class="fa-solid fa-arrow-left fa-xl text-primary position-absolute"></i>
             <h6>NIT: 800 220 154</h6>
@@ -9,8 +9,30 @@
                 <div class="point m-3"></div>
                 <p class="mb-0">Segmento: A</p>
             </div>
+            
+            <div class="d-flex justify-content-center ">
+                <ul class="col-12 slider d-flex pl-0">
+                    <li class="col-4">
+                        <input type="radio" id="sbutton1" name="sradio" checked>
+                        <label for="sbutton1">Operación</label>
+                        <div class="slider-bar mb-3"></div>
+                        <app-main-operacion></app-main-operacion>
+
+                    </li>
+                    <li class="col-4">
+                        <input type="radio" id="sbutton2" name="sradio">
+                        <label for="sbutton2">Indicadores</label>
+                        <div class="slider-bar"></div>
+                    </li>
+                    <li class="col-4">
+                        <input type="radio" id="sbutton3" name="sradio">
+                        <label for="sbutton3">Información del Cliente</label>
+                        <div class="slider-bar"></div>
+                </ul>
+
+            </div>
         </div>
-       
+
 
     </div>
 </div>

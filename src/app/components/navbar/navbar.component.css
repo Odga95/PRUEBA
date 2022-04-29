@@ -1,39 +1,41 @@
-.navbar{
-background-color: white;
+.navbar {
+    background-color: white;
 }
 
-.log-icon{
+.log-icon {
     height: 45px;
     padding: 3px;
     width: fit-content;
 }
 
-img{
-    height:100%;
+img {
+    height: 100%;
     cursor: pointer;
 }
-.rounded-circle{
+
+.rounded-circle {
     margin-left: 20px;
     margin-right: 10px;
 }
 
-.personal-information, h4{
+.personal-information, h4 {
     font-size: 14px;
     padding: 3px;
     text-align: right;
 }
-.personal-information h5{
+
+.personal-information h5 {
     font-size: 13px;
     color: #c0bdbd;
 }
 
-.profile-icon{
+.profile-icon {
     height: 45px;
     width: 100%;
     position: relative;
 }
 
-.up-photo{
+.up-photo {
     height: 22px;
     width: 22px;
     border-radius: 50%;
@@ -46,7 +48,20 @@ img{
     background-color: #6a6aff;
 }
 
-i{
+i {
     cursor: pointer;
 }
 
+.contenedor-menu i {
+    display:none;
+}
+/* ---768PX---*/
+@media (max-width: 768px) {
+    .contenedor-menu i {
+        display:flex;
+    }
+
+    section{
+        flex-direction: column;
+    }
+}
